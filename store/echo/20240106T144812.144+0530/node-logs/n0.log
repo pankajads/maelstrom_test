@@ -1,0 +1,164 @@
+Setting up I/O
+Starting main loop
+!!! Internal error (crash): 
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 229, in process_line
+    reply: Reply[Payload] = await asyncio.wait_for(
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 317, in msg_echo
+    raise NotSupportedError()
+api.errors.NotSupportedError: not_supported
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 236, in process_line
+    raise CrashError(f"handler crashed: {type_}") from e
+api.errors.CrashError: crash: handler crashed: echo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 242, in process_line
+    raise CrashError() from e
+api.errors.CrashError: crash
+
+!!! Error (13): 
+!!! Internal error (crash): 
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 229, in process_line
+    reply: Reply[Payload] = await asyncio.wait_for(
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 317, in msg_echo
+    raise NotSupportedError()
+api.errors.NotSupportedError: not_supported
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 236, in process_line
+    raise CrashError(f"handler crashed: {type_}") from e
+api.errors.CrashError: crash: handler crashed: echo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 242, in process_line
+    raise CrashError() from e
+api.errors.CrashError: crash
+
+!!! Error (13): 
+!!! Internal error (crash): 
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 229, in process_line
+    reply: Reply[Payload] = await asyncio.wait_for(
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 317, in msg_echo
+    raise NotSupportedError()
+api.errors.NotSupportedError: not_supported
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 236, in process_line
+    raise CrashError(f"handler crashed: {type_}") from e
+api.errors.CrashError: crash: handler crashed: echo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 242, in process_line
+    raise CrashError() from e
+api.errors.CrashError: crash
+
+!!! Error (13): 
+!!! Internal error (crash): 
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 229, in process_line
+    reply: Reply[Payload] = await asyncio.wait_for(
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 317, in msg_echo
+    raise NotSupportedError()
+api.errors.NotSupportedError: not_supported
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 236, in process_line
+    raise CrashError(f"handler crashed: {type_}") from e
+api.errors.CrashError: crash: handler crashed: echo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 242, in process_line
+    raise CrashError() from e
+api.errors.CrashError: crash
+
+!!! Error (13): 
+!!! Internal error (crash): 
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 229, in process_line
+    reply: Reply[Payload] = await asyncio.wait_for(
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 317, in msg_echo
+    raise NotSupportedError()
+api.errors.NotSupportedError: not_supported
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 236, in process_line
+    raise CrashError(f"handler crashed: {type_}") from e
+api.errors.CrashError: crash: handler crashed: echo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 242, in process_line
+    raise CrashError() from e
+api.errors.CrashError: crash
+
+!!! Error (13): 
+!!! Internal error (crash): 
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 229, in process_line
+    reply: Reply[Payload] = await asyncio.wait_for(
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 489, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 317, in msg_echo
+    raise NotSupportedError()
+api.errors.NotSupportedError: not_supported
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 236, in process_line
+    raise CrashError(f"handler crashed: {type_}") from e
+api.errors.CrashError: crash: handler crashed: echo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pankaj.negi/Desktop/repos/maelstrom-problems/api/__init__.py", line 242, in process_line
+    raise CrashError() from e
+api.errors.CrashError: crash
+
+!!! Error (13): 

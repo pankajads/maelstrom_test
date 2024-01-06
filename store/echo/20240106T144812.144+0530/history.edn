@@ -1,0 +1,42 @@
+{:index 0, :time 6374583, :type :info, :process :nemesis, :f :start-partition, :value :majorities-ring}
+{:index 1, :time 7907875, :type :invoke, :process 2, :f :echo, :value "Please echo 33"}
+{:index 2, :time 8271583, :type :invoke, :process 0, :f :echo, :value "Please echo 61"}
+{:index 3, :time 9780750, :type :info, :process :nemesis, :f :start-partition, :value [:isolated {"n0" #{"n1"}, "n1" #{"n2"}, "n2" #{"n0"}}]}
+{:index 4, :time 9830500, :type :invoke, :process 1, :f :echo, :value "Please echo 8"}
+{:index 5, :time 5018421375, :type :info, :process 0, :f :echo, :value "Please echo 61", :error :net-timeout}
+{:index 6, :time 5018933208, :type :info, :process 2, :f :echo, :value "Please echo 33", :error :net-timeout}
+{:index 7, :time 5019019125, :type :info, :process 1, :f :echo, :value "Please echo 8", :error :net-timeout}
+{:index 8, :time 5019075875, :type :invoke, :process 4, :f :echo, :value "Please echo 108"}
+{:index 9, :time 5021022083, :type :invoke, :process 5, :f :echo, :value "Please echo 33"}
+{:index 10, :time 5022211958, :type :invoke, :process 3, :f :echo, :value "Please echo 80"}
+{:index 11, :time 10030769791, :type :info, :process 4, :f :echo, :value "Please echo 108", :error :net-timeout}
+{:index 12, :time 10031023666, :type :info, :process 3, :f :echo, :value "Please echo 80", :error :net-timeout}
+{:index 13, :time 10031089541, :type :info, :process 5, :f :echo, :value "Please echo 33", :error :net-timeout}
+{:index 14, :time 10031180666, :type :invoke, :process 8, :f :echo, :value "Please echo 10"}
+{:index 15, :time 10031739083, :type :invoke, :process 6, :f :echo, :value "Please echo 68"}
+{:index 16, :time 10033349208, :type :invoke, :process 7, :f :echo, :value "Please echo 60"}
+{:index 17, :time 15039551625, :type :info, :process 8, :f :echo, :value "Please echo 10", :error :net-timeout}
+{:index 18, :time 15039776000, :type :info, :process 6, :f :echo, :value "Please echo 68", :error :net-timeout}
+{:index 19, :time 15039835916, :type :invoke, :process 9, :f :echo, :value "Please echo 33"}
+{:index 20, :time 15040348666, :type :info, :process 7, :f :echo, :value "Please echo 60", :error :net-timeout}
+{:index 21, :time 15041751208, :type :invoke, :process 10, :f :echo, :value "Please echo 117"}
+{:index 22, :time 15044260125, :type :invoke, :process 11, :f :echo, :value "Please echo 46"}
+{:index 23, :time 18683644666, :type :info, :process :nemesis, :f :stop-partition, :value nil}
+{:index 24, :time 18688421041, :type :info, :process :nemesis, :f :stop-partition, :value :network-healed}
+{:index 25, :time 20046785500, :type :info, :process 9, :f :echo, :value "Please echo 33", :error :net-timeout}
+{:index 26, :time 20047375958, :type :invoke, :process 12, :f :echo, :value "Please echo 45"}
+{:index 27, :time 20048779625, :type :info, :process 10, :f :echo, :value "Please echo 117", :error :net-timeout}
+{:index 28, :time 20049105583, :type :invoke, :process 13, :f :echo, :value "Please echo 92"}
+{:index 29, :time 20052188583, :type :info, :process 11, :f :echo, :value "Please echo 46", :error :net-timeout}
+{:index 30, :time 20052340458, :type :invoke, :process 14, :f :echo, :value "Please echo 75"}
+{:index 31, :time 25057947791, :type :info, :process 13, :f :echo, :value "Please echo 92", :error :net-timeout}
+{:index 32, :time 25058348666, :type :info, :process 12, :f :echo, :value "Please echo 45", :error :net-timeout}
+{:index 33, :time 25058408875, :type :invoke, :process 16, :f :echo, :value "Please echo 86"}
+{:index 34, :time 25059232666, :type :info, :process 14, :f :echo, :value "Please echo 75", :error :net-timeout}
+{:index 35, :time 25060339166, :type :invoke, :process 17, :f :echo, :value "Please echo 115"}
+{:index 36, :time 25060973458, :type :invoke, :process 15, :f :echo, :value "Please echo 41"}
+{:index 37, :time 28124100833, :type :info, :process :nemesis, :f :start-partition, :value :majority}
+{:index 38, :time 28129096708, :type :info, :process :nemesis, :f :start-partition, :value [:isolated {"n1" #{"n2" "n0"}, "n2" #{"n1"}, "n0" #{"n1"}}]}
+{:index 39, :time 30067544375, :type :info, :process 17, :f :echo, :value "Please echo 115", :error :net-timeout}
+{:index 40, :time 30067977916, :type :info, :process 15, :f :echo, :value "Please echo 41", :error :net-timeout}
+{:index 41, :time 30068390666, :type :info, :process 16, :f :echo, :value "Please echo 86", :error :net-timeout}
