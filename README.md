@@ -2,6 +2,7 @@
 #created seperate folder for each problem.
 
 Folder Structure
+```
 .
 ├── README.md
 ├── echo (1st Problem code)
@@ -21,7 +22,7 @@ Folder Structure
 ├── challange_1.py (echo problem solution)
 ├── challange_2.py (unique id generation solution)
 ├── challange_3.py (broadcat solution)
-
+```
 
 ```
 How to execute the programs?
