@@ -23,7 +23,7 @@ Folder Structure
 ├── challange_3.py (broadcat solution)
 
 
-
+```
 How to execute the programs?
 1. Challange 1 - Echo
     - clone the repo
@@ -59,8 +59,14 @@ How to execute the programs?
         --rate 10 \
         --nemesis partition
 
+```
+
 ##Output
+
+
 ###Solution 1
+
+```
 pankaj.negi@P2HNYH1W16 maelstrom-problems % ./maelstrom/maelstrom test -w echo --bin ./challange_1.py  --node-count 1 --time-limit 10                                    
 WARNING: abs already refers to: #'clojure.core/abs in namespace: clojure.core.matrix.impl.mathsops, being replaced by: #'clojure.core.matrix.impl.mathsops/abs
 Warning: protocol #'clojure.core.matrix.protocols/PMathsFunctions is overwriting function abs
@@ -357,7 +363,7 @@ INFO [2024-01-06 15:00:31,191] jepsen test runner - jepsen.core {:perf {:latency
 
 
 Everything looks good! ヽ(‘ー`)ノ
-
+```
 
 ###Solution 2
 ,974] jepsen worker 0 - jepsen.util 0	:ok	:generate	"n0-9931"
