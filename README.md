@@ -366,6 +366,7 @@ Everything looks good! ヽ(‘ー`)ノ
 ```
 
 ###Solution 2
+```
 ,974] jepsen worker 0 - jepsen.util 0	:ok	:generate	"n0-9931"
 INFO [2024-01-06 14:49:59,974] jepsen worker 0 - jepsen.util 0	:invoke	:generate	nil
 INFO [2024-01-06 14:49:59,975] jepsen worker 0 - jepsen.util 0	:ok	:generate	"n0-9932"
@@ -7673,9 +7674,11 @@ INFO [2024-01-06 14:50:07,108] jepsen test runner - jepsen.core {:perf {:latency
 
 
 Everything looks good! ヽ(‘ー`)ノ
-
+```
 
 ###Solution 3
+
+```
 pankaj.negi@P2HNYH1W16 maelstrom-problems % ./maelstrom/maelstrom test -w broadcast --bin challange_3.py --node-count 1 --time-limit 20 --rate 10
 WARNING: abs already refers to: #'clojure.core/abs in namespace: clojure.core.matrix.impl.mathsops, being replaced by: #'clojure.core.matrix.impl.mathsops/abs
 Warning: protocol #'clojure.core.matrix.protocols/PMathsFunctions is overwriting function abs
@@ -8312,4 +8315,5 @@ INFO [2024-01-06 15:08:23,946] jepsen test runner - jepsen.core {:perf {:latency
 
 
 Everything looks good! ヽ(‘ー`)ノ
+```
 
