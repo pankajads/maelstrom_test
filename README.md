@@ -52,15 +52,12 @@ How to execute the programs?
         --node-count 5 \
         --time-limit 20 \
         --rate 10
-    - /maelstrom/maelstrom test \
-        --workload broadcast \
-        --bin challange_3.py \
-        --node-count 5 \
-        --time-limit 20 \
-        --rate 10 \
-        --nemesis partition
-
 ```
+
+Solution Output 
+challange 1 | refer file output_challange1.md
+challange 2 | refer file output_challange2.md
+challange 3 | refer file output_challange3.md
 
 
 
