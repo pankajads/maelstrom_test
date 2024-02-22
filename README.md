@@ -54,10 +54,12 @@ How to execute the programs?
         --rate 10
 ```
 
-Solution Output 
+###Solution Output 
+```
 challange 1 | refer file output_challange1.md
 challange 2 | refer file output_challange2.md
 challange 3 | refer file output_challange3.md
+```
 
 
 
